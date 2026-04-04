@@ -10,11 +10,11 @@ Essentially a passion project of mine. I have always wanted to make an idle game
    ```powershell
    cl /EHsc Idle1.cpp
    ```
-The executable will be created, and can be ran by simply typing
+   The executable will be created, and can be ran by simply typing
    ```powershell
    Idle1.exe
    ```
-*Note: you may need to add `.\` before the file name in the case the game does not run.
+   *Note: you may need to add `.\` before the file name in the case the game does not run.
 
 ## How it works
 Currently, the game uses very simple cost scaling where the price of each generator increases by 10% for each one purchased. Represented by the simple formula $Cost = B \times 1.10^n$
