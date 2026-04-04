@@ -9,20 +9,18 @@ Essentially a passion project of mine. I have always wanted to make an idle game
 2. Navigate to the project folder.
 3. Compile using the Microsoft C++ compiler:
    ```powershell
-   cl /EHsc main.cpp /link /out:IdleGame.exe
-
-### Linux & macOS (GCC/Clang)
-1. Open your terminal, navigate to the project folder, and run:
-2. Navigate to the project folder.
-3. Compile using the Microsoft C++ compiler:
-   ```bash
-   g++ -std=c++17 main.cpp -o IdleGame
-   ./IdleGame
+   cl /EHsc Idle1.cpp
+The executable will be created, and can be ran by simply typing Idle1.exe
 
 ## How it works
-
-Currently, the game uses very simple cost scaling where the price of each generator increases by 10% for each one purchased. $Cost = B \times 1.10^n$
+Currently, the game uses very simple cost scaling where the price of each generator increases by 10% for each one purchased. Represented by the simple formula $Cost = B \times 1.10^n$
 Upgrades that directly increase production are in the works, and will multiply your income of a single generator or all of them by a given percentage.
+
+### Controls
+a: 'click' to generate money
+q: quit game
+numbers 0-9 (currently only 1,2,3): buy generator
+
 <!--
 **jordanjc500/jordanjc500** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
